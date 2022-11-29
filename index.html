@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Lab 7</title>
+</head>
+<body>
+    <div class="page-container">
+        <div class="query-place">
+            <label for="query-place-input">select location</label>
+            <input type="text" id="query-place-input">
+        </div>
+        <div class="current" id="current">
+            
+        </div>
+        <div class="forecast" id ="forecast">
+           
+        </div>
+        <template id="card-template">
+            <div class="weather-card">
+                <div class="name"></div>
+                <div class="data">
+                    <div class="icon">
+                        <img src="http://openweathermap.org/img/wn/04n@2x.png" alt="">
+                    </div>
+                    <div class="description">
+                        description: 
+                    </div>
+                    <div class="temperature">
+                        temperature: 
+                    </div>
+                    <div class="wind-speed">
+                        wind speed    
+                    </div>
+                </div>
+            </div>
+        </template>
+    </div>
+</body>
+</html>
